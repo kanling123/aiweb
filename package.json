@@ -1,0 +1,31 @@
+{
+  "name": "cloudflare-ai-web",
+  "version": "1.6",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build --preset=vercel_edge",
+    "build_node": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "^8.1.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "nuxt": "^3.10.3",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.14.1",
+    "@types/markdown-it": "^13.0.7",
+    "crypto-js": "^4.2.0",
+    "dexie": "^3.2.5",
+    "eventsource-parser": "^1.1.2",
+    "highlight.js": "^11.9.0",
+    "markdown-it": "^14.0.0"
+  }
+}
